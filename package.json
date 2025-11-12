@@ -1,0 +1,16 @@
+{
+  "name": "certificados-arweave",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sistema de certificados con Arweave.app y Bundlr",
+  "scripts": {
+    "dev": "cd public && http-server -p 3000 -c-1",
+    "start": "cd public && http-server -p 3000"
+  },
+  "keywords": ["arweave", "certificados", "blockchain", "bundlr"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
